@@ -20,5 +20,5 @@ List of changes:
 5 attack set to 20 damage
 6 enemy health initially appearing on white text with health set to 100
 7 if the enemy is hit -20 and red text
-8 if enemy health reach 0 - enemy diea with a cool animation!
+8 if enemy health reach 0 - enemy dies with a cool animation!
 
