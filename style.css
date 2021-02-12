@@ -9,6 +9,7 @@ body{
         height: 700px;
         width: 700px;
         margin: auto;
+        align-self: center;
         
       }
 
@@ -27,7 +28,7 @@ body{
 
       .block {
         display: inline-block;
-        padding:0;
+        padding-top: 10px;
         border-radius: 50%;
         background: url(images/mounted-knight.svg);
         background-size: 100px 100px;
@@ -38,6 +39,11 @@ body{
         border-left: 0px;
         border-right: 0px;
         border-bottom: 0px;
+        color: black;
+        font-size: xx-large;
+        text-align: end;
+        font-weight: 900;
+        
       }
 
       .enemy {
@@ -50,6 +56,18 @@ body{
         border-left: 0px;
         border-right: 0px;
         border-bottom: 0px;
+        color: white;
+        font-size: x-large;
+        font-weight: 900;
+      }
+
+
+
+      #turnbtn {
+        width: 100px;
+        height: 30px;
+        display: inline-block;
+        top: 0;
       }
 
       .info {
@@ -57,4 +75,5 @@ body{
         margin: auto;
         color: black;
         background-color: white;
+        text-align: center;
       }
