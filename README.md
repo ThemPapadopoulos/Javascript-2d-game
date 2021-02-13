@@ -34,9 +34,7 @@ List of changes:
 10. Different screen for win or loose!
 11. Player can only attack only when standing in front of the enemy.
 12. Added (working) 'moves left' counter!
-
-
-
+13. Set some Boundaries for movement and attack, the player cant move outside the field, nor the enemy!
 
 *************************************************************************
 
