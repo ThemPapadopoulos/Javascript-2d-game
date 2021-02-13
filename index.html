@@ -12,15 +12,17 @@
       <title>Document</title>
 </head>
 <body>
+      
       <div id="main">
-            
-            <div class="block"></div>
-            <div class="enemy"></div>  
+      <div id='header'>MOVES LEFT: <span id='headerSpan'></span></div>
+            <div class="block"><span id="playerHealth"></span><br><br><span id="playerHit"></span></div>
+            <div class="enemy"><span id="enemyHealth"></span><br><br><span id="enemyHit"></span></div>  
             <div class="tile"></div>
             <Button id="turnbtn">END TURN</Button>
       </div>
+</div>
       
-      <section class="info"> MOVE WITH ◀ ▲ ▼ ▶    ATTACK WITH <b>SPACE</b>  </section>
+      <section class="info"> MOVE WITH ◀ ▲ ▼ ▶ <br> ATTACK WITH <b>SPACE</b> <br> END TURN WITH <b>Q</b> </section>
       <script src="app.js"></script>
 </body>
 </html>
