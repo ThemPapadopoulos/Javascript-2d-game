@@ -47,7 +47,7 @@
     narration.setAttribute("id", "narration");
     map.append(narration);
     narration.innerHTML =
-      '"You reached the first town, choosing not to fight the goblin. your choise costs the lives of the nearby villagers."';
+      '"You reached the first town,choosing not to fight the beast. <br> Your choice costs the lives of the nearby villagers."';
     town1.innerHTML = "";
     narration.addEventListener("click", function () {
       narration.style.display = "none";
