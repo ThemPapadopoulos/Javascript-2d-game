@@ -14,6 +14,26 @@ END TURN: Q
 PRESS REFRESH TO RESTART GAME
 
 
+
+*************************************************************************
+
+3rd Huge Update! 15/02/2021
+
+1. Added an intro screen with a basic story
+2. Added a clickable map with 2 locations! (for now)...
+3. Tutorial message added!
+4. Some battle tweaking/optimization on mechanics
+5. Added the element of choise. A small menu under the player icon. Player can go left or right on map. 
+6. Choosing left will pop a message showing the consequences of your choice.
+7. You can click to dismiss messages.
+
+The map controls are done with left mouse clicks.
+
+the battle map controls are done with the keyboard.
+
+
+
+
 *************************************************************************
 
 2nd update 13/02/2021:
