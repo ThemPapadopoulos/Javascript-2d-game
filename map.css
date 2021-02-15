@@ -1,0 +1,144 @@
+#intro {
+  visibility: initial;
+  background-color: black;
+  color: white;
+  height: 750px;
+  width: 700px;
+  align-self: center;
+  position: absolute;
+  text-align: center;
+  font-size: xx-large;
+}
+
+#map {
+  visibility: hidden;
+  background: url(images/map.png);
+  height: 750px;
+  width: 700px;
+  align-self: center;
+  position: absolute;
+}
+
+#tutorial {
+  text-align: center;
+  padding-top: 20px;
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+  position: absolute;
+  top: 280px;
+  left: 280px;
+}
+
+#town {
+  width: 10px;
+  height: 10px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  border: 5px double brown;
+  position: absolute;
+  top: 685px;
+  left: 575px;
+}
+
+#town2 {
+  width: 10px;
+  height: 10px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  border: 5px double brown;
+  position: absolute;
+  top: 585px;
+  left: 610px;
+}
+
+#town3 {
+  width: 10px;
+  height: 10px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  border: 5px double brown;
+  position: absolute;
+  top: 585px;
+  left: 500px;
+}
+
+#enemy {
+  position: absolute;
+  top: 535px;
+  left: 590px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background: url(images/troglodyte.svg);
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  color: white;
+  font-size: x-large;
+  font-weight: 900;
+
+  --animate-duration: 1s;
+}
+#player {
+  display: block;
+  border-radius: 50%;
+  background: url(images/mounted-knight.svg);
+  padding: 0;
+  margin: 0;
+  animation-duration: 1s;
+  width: 50px;
+  height: 50px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  color: black;
+  font-size: x-large;
+  text-align: end;
+  font-weight: 900;
+  position: absolute;
+  position: absolute;
+  top: 640px;
+  left: 565px;
+}
+
+ul {
+  list-style: none;
+  font-size: small;
+  text-decoration: none;
+}
+
+li {
+  width: 80px;
+
+  list-style: none;
+  background-color: darkblue;
+  border: 3px solid white;
+
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#narration {
+  text-align: center;
+  padding-top: 20px;
+  width: 200px;
+  height: 90px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+  position: absolute;
+  top: 430px;
+  left: 350px;
+}

@@ -8,21 +8,46 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="battle.css">
+      <link rel="stylesheet" href="map.css">
       <title>Document</title>
 </head>
 <body>
-      
+      <div id="intro">
+            <p>"IN A LAND OF FANTASY A KNIGHT, <br>
+                  STRANDED ON A DISTAND LAND <br>
+                  MUST FIND A WAY HOME"</p>
+                  <span>(click to start)</span>
+      </div>
+      <div id="map">
+            <span id="warnings"></span>
+            <span id= 'tutorial'>tutorial: choose a direction <br>
+                   LEFT - go to town <br>
+                   & RIGHT - fight the beast 
+                  <hr>
+                  (click here to dismiss msg)
+            </span>
+            <div id="player"></div>
+            <div id="town">
+                  <ul><li><a href='#town3' id='goLeft'>GO LEFT</a></li><li><a href='#town2' id='goRight'>GO RIGHT</a></li></ul>
+            </div>
+            <div id="town2"></div>
+            <div id="town3"></div>
+            <div id="enemy"></div>
+
+            
+      </div>
       <div id="main">
       <div id='header'>MOVES LEFT: <span id='headerSpan'></span></div>
             <div class="block"><span id="playerHealth"></span><br><br><span id="playerHit"></span></div>
             <div class="enemy"><span id="enemyHealth"></span><br><br><span id="enemyHit"></span></div>  
             <div class="tile"></div>
             <Button id="turnbtn">END TURN</Button>
+            <section class="info"> MOVE WITH ◀ ▲ ▼ ▶ <br> ATTACK WITH <b>SPACE</b> <br> END TURN WITH <b>Q</b> </section>
       </div>
+     
 </div>
-      
-      <section class="info"> MOVE WITH ◀ ▲ ▼ ▶ <br> ATTACK WITH <b>SPACE</b> <br> END TURN WITH <b>Q</b> </section>
-      <script src="app.js"></script>
+ <script src="battle.js"></script>
+ <script src="map.js"></script>
 </body>
 </html>
