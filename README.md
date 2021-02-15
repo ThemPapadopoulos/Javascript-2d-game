@@ -22,7 +22,7 @@ PRESS REFRESH TO RESTART GAME
 1. Added an intro screen with a basic story
 2. Added a clickable map with 2 locations! (for now)...
 3. Tutorial message added!
-4. Some battle tweaking/optimization on mechanics
+4. Some battle tweaking/optimization on mechanics (better boundaries.no player overlapping the enemy anymore, enemy attacks automatically when the player is in front of player)
 5. Added the element of choise. A small menu under the player icon. Player can go left or right on map. 
 6. Choosing left will pop a message showing the consequences of your choice.
 7. You can click to dismiss messages.
