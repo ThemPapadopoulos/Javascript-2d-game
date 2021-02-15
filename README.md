@@ -26,6 +26,7 @@ PRESS REFRESH TO RESTART GAME
 5. Added the element of choise. A small menu under the player icon. Player can go left or right on map. 
 6. Choosing left will pop a message showing the consequences of your choice.
 7. You can click to dismiss messages.
+8. Battle and Map split into different js snd css files.
 
 The map controls are done with left mouse clicks.
 
