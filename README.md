@@ -13,6 +13,7 @@ ATTACK: SPACE
 END TURN: Q
 PRESS REFRESH TO RESTART GAME
 
+LIVE DEMO: https://thempapadopoulos.github.io/Javascript-2d-game/
 
 
 *************************************************************************
